@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline:none;
+    list-style-type: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+button{
+    border:0;
+    cursor: pointer;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+
+body{
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    background: linear-gradient(90deg, #221F20 -8.33%, #050505 100%);
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 15, 15)
+}
+
+.logo-img-wrapper{
+    max-width: 10rem;
+    margin: 5rem;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container{
+    margin-top: 5rem;
+    margin: 1rem;
+    width: 100%;
+    max-width: 128rem;
+    margin: 5rem auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-container{
+    max-width: 50rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dash-image{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dash-itens{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 4rem;
+    color:#06a7a7;
+}
+
+p{
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.dash-buttons{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    width: 25rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn-planilha:hover{
+    background-color: #22caf0;
+    
+}
+
+.btn-planilha{
+    background-color: #12ABCD;
+    transition: .7s ease;
+    margin-right: 1rem;
+    padding: 2rem;
+    color:black;
+}
+
+.btn-figma{
+    border: 1px solid #22caf0;
+    padding: 1.9rem;
+    color:white;
+    transition: .7s ease;
+}
+
+.btn-figma:hover{
+    border: none;
+    background-color: #12ABCD;
+    color:black;
+}
+
+@media(max-width:524px){
+
+    .dash-buttons{
+        flex-direction: column;
+    }
+
+    .btn-planilha{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+}
+
+@media(max-width:360px){
+    h2{
+        font-size: 3rem;
+    }
+}
