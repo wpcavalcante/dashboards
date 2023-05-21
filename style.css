@@ -70,9 +70,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .dashboard-container{
+    margin-top: 5rem;
     max-width: 50rem;
     width: 100%;
     display: flex;
@@ -113,6 +115,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 5rem;
 }
 
 a{
